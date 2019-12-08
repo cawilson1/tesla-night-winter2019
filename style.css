@@ -1,0 +1,39 @@
+/* CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(https://raw.githubusercontent.com/twilson63/flexgrid-tesla/master/public/images/hero-3.jpg);
+  background-repeat: no-repeat;
+  max-width: 99%;
+  max-height: 99%;
+  background-size: cover;
+}
+
+.main-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.center-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.right-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
