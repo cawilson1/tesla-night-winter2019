@@ -7,11 +7,9 @@
 }
 
 body {
-  background: url(https://raw.githubusercontent.com/twilson63/flexgrid-tesla/master/public/images/hero-3.jpg);
-  background-repeat: no-repeat;
+  background: url(https://raw.githubusercontent.com/twilson63/flexgrid-tesla/master/public/images/hero-3.jpg) center/cover fixed no-repeat;
   max-width: 99%;
   max-height: 99%;
-  background-size: cover;
 }
 
 .main-navbar {
@@ -36,4 +34,32 @@ body {
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
+}
+
+main {
+  text-align: center;
+}
+
+.description {
+color: #fff;
+position: absolute;
+bottom: 100px;
+padding: 0 20%;
+}
+
+footer {
+  color: #fff;
+  position: absolute;
+bottom: 0px;
+padding: 0 20%;
+display: flex;
+justify-content: space-between;
+}
+
+.padding {
+  padding: 0 20px;
+} 
+
+.border-right {  
+  border-right: 2px solid #fff;
 }
