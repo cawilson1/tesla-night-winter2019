@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://use.fontawesome.com/ef8788bb2a.js"></script>
   <title>Tesla</title>
 </head>
 
@@ -13,18 +15,18 @@
   <section>
     <div class="main-navbar">
       <div class="left-nav">
-        <div class="tesla">Tesla</div>
+        <div class="tesla"><img src="image.png" alt="teslalogo" height="15px"></div>
       </div>
-      <div class="center-nav">
-        <div class="modelX">Model X</div>
-        <div class="modelS">Model S</div>
-        <div class="model3">Model 3</div>
-        <div class="roadster">Roadster</div>
-        <div class="energy">Energy</div>
+      <div class="center-nav nav">
+        <div class="modelX menu-item">Model X</div>
+        <div class="modelS menu-item">Model S</div>
+        <div class="model3 menu-item">Model 3</div>
+        <div class="roadster menu-item">Roadster</div>
+        <div class="energy menu-item">Energy</div>
       </div>
-      <div class="right-nav">
-        <div class="shop">Shop</div>
-        <div class="signIn">Sign In</div>
+      <div class="right-nav nav">
+        <div class="shop menu-item">Shop</div>
+        <div class="signIn menu-item">Sign In</div>
       </div>
     </div>
 
@@ -38,24 +40,25 @@
     </main>
     <footer>
       <div class="border-right padding">
-        <p class="top-footer">1.9s</p>
+        <p class="top-footer"><span class="strong">1.9</span>s</p>
+        <i class="fas fa-tachometer-alt"></i>
         <p class="bottom-footer">
           0-60 mph
         </p>
       </div>
       <div class="border-right padding">
-        <p class="top-footer">+250mph</p>
+        <p class="top-footer"><span class="strong">+250</span>mph</p>
         <p class="bottom-footer">
           Top Speed
         </p>
       </div>
       <div class="padding">
-        <p class="top-footer">620mi</p>
+        <p class="top-footer"><span class="strong">620</span>mi</p>
         <p class="bottom-footer">
           Mile Range
         </p>
       </div>
-      <button>Reserve Now</button>
+      <button class="reserveNowBtn">Reserve Now</button>
     </footer>
   </section>
 </body>
